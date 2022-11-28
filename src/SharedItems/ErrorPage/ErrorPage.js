@@ -9,14 +9,14 @@ const ErrorPage = () => {
                     <img src="https://drudesk.com/sites/default/files/2018-02/404-error-page-not-found.jpg" alt="" />
                     <div className='max-w-md text-center'>
 
-                        <p className='text-2xl font-semibold md:text-3xl mb-8'>
+                        <p className='text-2xl font-semibold md:text-xl mb-12'>
                             OPS SOMETHING WENT WRONG ...
                         </p>
                         <Link
                             to='/'
-                            className='px-8 py-3 font-semibold rounded bg-orange-300 text-gray-900'
+                            className='px-8 py-3 font-semibold rounded bg-pink-600 text-white'
                         >
-                            Back to homepage
+                            Home Page
                         </Link>
                     </div>
                 </div>

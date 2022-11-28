@@ -16,12 +16,12 @@ const Footer = () => {
                 <div className="lg:flex lg:items-end lg:justify-between">
                     <div>
                         <div className="flex justify-center text-teal-600 lg:justify-start">
-                            <h1 className='text-3xl font-bold'><Link>Bike-resale</Link></h1>
+                            <h1 className='text-3xl font-bold'><Link>Vehicle Hub</Link></h1>
                         </div>
-                        <h1 className="text-3xl font-extrabold sm:text-5xl">
-                            Dream Come True
-                            <strong className="block font-extrabold text-rose-700">
-                                Let's Raid !
+                        <h1 className="text-3xl font-extrabold sm:text-5xl text-pink-600">
+                            Can We Make Your Day !!!
+                            <strong className="block font-extrabold text-green-600">
+                                Let's Buy
                             </strong>
                         </h1>
                     </div>
@@ -48,7 +48,7 @@ const Footer = () => {
                 </div>
 
                 <p className="mt-12 text-center text-sm text-gray-500 lg:text-right">
-                    Copyright &copy; 2022. All rights reserved.
+                    COPYWRITE &copy; 2022. ALL RIGHT RESERVE VEHICALES HUB LTD.
                 </p>
             </div>
         </footer>

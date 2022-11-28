@@ -33,9 +33,9 @@ const Home = () => {
     const [productModalReport, setProductModalReport] = useState(null)
     return (
         <div>
-            <section className="relative bg-[url(https://c.ndtvimg.com/2019-10/5foe9o38_yamaha-mt15_625x300_30_October_19.jpeg)] bg-cover bg-center bg-no-repeat">
+            <section className="relative bg-[url(https://cdn.motor1.com/images/mgl/pKq0J/s3/2022-land-rover-range-rover-exterior-studio-shots.jpg)] bg-cover bg-center bg-no-repeat">
                 <div
-                    className="absolute inset-0 bg-white/75 sm:bg-transparent sm:bg-gradient-to-r sm:from-white/95 sm:to-white/25"
+                    className="absolute inset-0 bg-white/75 sm:bg-transparent sm:bg-gradient-to-r sm:from-white/90 sm:to-white/25"
                 ></div>
 
                 <div

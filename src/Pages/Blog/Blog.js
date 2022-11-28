@@ -86,26 +86,7 @@ const Blog = () => {
                             </a>
                         </div>
                         <p className="text-gray-700">
-                            JavaScript is a bit confusing for developers experienced in
-                            class-based languages (like Java or C++), as it is dynamic and
-                            does not have static types. When it comes to inheritance,
-                            JavaScript only has one construct: objects. Each object has a
-                            private property which holds a link to another object called its
-                            prototype. That prototype object has a prototype of its own, and
-                            so on until an object is reached with null as its prototype. By
-                            definition, null has no prototype, and acts as the final link in
-                            this prototype chain. It is possible to mutate any member of the
-                            prototype chain or even swap out the prototype at runtime, so
-                            concepts like static dispatching do not exist in JavaScript. While
-                            this confusion is often considered to be one of JavaScript's
-                            weaknesses, the prototypical inheritance model itself is, in fact,
-                            more powerful than the classic model. It is, for example, fairly
-                            trivial to build a classic model on top of a prototypical model —
-                            which is how classes are implemented. Although classes are now
-                            widely adopted and have become a new paradigm in JavaScript,
-                            classes do not bring a new inheritance pattern. While classes
-                            abstract most of the prototypical mechanism away, understanding
-                            how prototypes work under the hood is still useful.
+                            The Prototypal Inheritance is a feature in javascript used to add methods and properties in objects. It is a method by which an object can inherit <br /> the properties and methods of another object. Traditionally, <br /> in order to get and set the [[Prototype]] of an object, <br /> we use Object. getPrototypeOf and Object.
                         </p>
                     </div>
                 </div>
@@ -135,29 +116,7 @@ const Blog = () => {
                             </a>
                         </div>
                         <p className="text-gray-700">
-                            A unit test is a way of testing a unit - the smallest piece of
-                            code that can be logically isolated in a system. In most
-                            programming languages, that is a function, a subroutine, a method
-                            or property. The isolated part of the definition is important. In
-                            his book "Working Effectively with Legacy Code", author Michael
-                            Feathers states that such tests are not unit tests when they rely
-                            on external systems: “If it talks to the database, it talks across
-                            the network, it touches the file system, it requires system
-                            configuration, or it can't be run at the same time as any other
-                            test." Modern versions of unit testing can be found in frameworks
-                            like JUnit, or testing tools like TestComplete. Look a little
-                            further and you will find SUnit, the mother of all unit testing
-                            frameworks created by Kent Beck, and a reference in chapter 5 of
-                            The Art of Software Testing . Before that, it's mostly a mystery.
-                            I asked Jerry Weinberg about his experiences with unit testing --
-                            "We did unit testing in 1956. As far as I knew, it was always
-                            done, as long as there were computers". Regardless of when and
-                            where unit testing began, one thing is for sure. Unit testing is
-                            here to stay. Let's look at some more practical aspects of unit
-                            testing.Well-written unit tests act as documentation for your
-                            code. Any developer can quickly look at your tests and know the
-                            purpose of your functions. It simplifies the debugging process.
-                            Unit testing is an integral part of extreme programming.
+                            The main objective of unit testing is to isolate written code to test and determine if it works as intended. Unit testing is an important step in the development process, because if done correctly, <br /> it can help detect early flaws in code which <br /> may be more difficult to find in later testing stages.
                         </p>
                     </div>
                 </div>
@@ -187,92 +146,10 @@ const Blog = () => {
                             </a>
                         </div>
                         <p className="text-gray-700">
-                            Angular JS The best thing about Angular is its constant updates.
-                            Angular launches an update every 6 months and the new versions
-                            build upon the older ones. Take Angular 11 update, for example,
-                            which has gotten rid of all bugs the previous version had. Of
-                            course, you need to keep a watch on the updates, as the code may
-                            be affected in case of a major update. But Google makes sure to
-                            wait another 6 months after an update before pulling the previous
-                            tools, giving you a full year to change code if the need arises.
-                            However, this is just the tip of the iceberg. There are several
-                            more reasons why Angular is a favorite for large scale apps with
-                            complex functionalities, which wish to scale further. 1. High
-                            performance and functionality at minimal cost Angular is a robust
-                            framework that has all the needed functionalities packed into its
-                            official library. And since it is from Google, you can be assured
-                            of the quality of code and high-end security features. Web
-                            development with Angular JS requires fewer imports of third-party
-                            libraries, significantly reducing app development costs. 2.
-                            Maintenance Maintenance of Angular JS code is usually a piece of
-                            cake as it uses Typescript- a simplified version of Javascript
-                            which makes it easier for developers to catch faulty code whilst
-                            typing itself. Besides that, Angular imports dependencies
-                            (external repositories of code) to help with testing, making the
-                            whole process of testing the app a smooth ride. 3. Reusability As
-                            a decision-maker, you must be worried about the development cost
-                            and the time-to-market. A major factor in Angular development that
-                            contributes to a reduction in both is the clean, consistent code.
-                            You can use it multiple times and it won’t cause a hint of
-                            confusion React JS This open-source Javascript library has become
-                            quite the rage for developing interactive web and mobile apps
-                            since Facebook launched it in 2013. There are primarily three
-                            reasons which have made the React library a developer darling -
-                            Code Reusability- it allows developers to reuse blocks of code for
-                            a simple function Ease-of-use - React, though tougher than Vue,
-                            has a less steep learning curve than Angular JS. Customizable -
-                            The crucial difference between the library and framework is about
-                            control. This is where React is ahead of Angular- it is highly
-                            customizable. You are in control and you incorporate the parts of
-                            the library you need, unlike Angular, which does not allow much
-                            modification. As per reports, 42% of developers prefer React
-                            Native for building cross-platform applications. Click To Tweet
-                            Here are a few more reasons why you can bank on React Js: 1. SEO
-                            Friendly To make it big on the Internet, you need to mark a solid
-                            online presence and the best way to go about it is a strong SEO
-                            game. The clean and simple code of React makes the page load time
-                            of a website almost negligible. And page load time is a critical
-                            factor. According to Google, the probability of a mobile site
-                            visitor bouncing increases 123% if the page load time goes from 1
-                            second to 10 seconds. 2. React Developer Tools React Developer
-                            Tools is a Chrome and Firefox extension that can come in very
-                            handy for quick edits to UI and observing the current state of the
-                            application. 3. Migration to React Native Whether you’re starting
-                            a business or expanding the one you already have, in 2021, you
-                            will always be looking to launch a mobile application if you
-                            haven’t already. React Native is already one of the most popular
-                            cross platform mobile app development frameworks due to the high
-                            performance of cross-platform apps developed with it and on top of
-                            that, easy migration of components from React JS to React Native
-                            reduces the time-to-market as well. All the developers would have
-                            to do is simply check UI on mobiles and then just make the
-                            required changes to make it more mobile-friendly.
-                            <br />
-                            Vue JS Since Vue is the new kid on the block, not many businesses
-                            have ventured into Vue JS development yet, and thus, real-time
-                            assessment of the pros and cons of Vue is not very
-                            well-documented. However, what we do know is that Vue has the best
-                            of both worlds- two-way data binding like Angular and flexibility
-                            in code like React. Because of this, Vue is rising steadily
-                            through the ranks and has a massive market in Asia- Alibaba and
-                            Xiaomi are the big names using Vue JS. Hence, the fastest
-                            JavaScript framework – TezJS, uses Vue as the primary base of the
-                            language Vue is best utilized in cases of lightweight yet high
-                            performance, intuitive apps as the applications are quickly ready
-                            for the market without compromising on the performance or
-                            functionalities. Let us take a quick look at what makes Vue JS a
-                            lucrative choice for businesses. 1. Size and Simplicity It is a
-                            tiny framework of only 21KB, so download and startup take next to
-                            no time! Even the code in Vue is short and simple - what may run
-                            into tens of lines on jQuery will be a line or two in Vue. This
-                            allows time-efficient development of applications and templates.
-                            Even the mighty GitLab is in awe of Vue, saying - “Vue JS comes
-                            with the perfect balance of what it can do for you and what you
-                            need to do yourself.” 2. Boosts performance ISimulations run by
-                            third parties have shown that Vue performs better than Angular and
-                            as well as React in manipulating rows and columns in tables. This
-                            is because unlike Angular, it has a virtual DOM, and the Vue DOM
-                            is lighter than the one React uses.
+                            Angular, React, and Vue are the most popular frameworks for any project that has something to do with JavaScript, from creating mobile, small-scale applications to building intuitive user interfaces for business web apps. However, before going into the actual comparison, I will guide you through the essential aspects and history of each JS Framework.    Angular is a TypeScript-based structure framework, while Vue is a progressive lightweight framework. Both - Angular JS and React JS frameworks are used to create web interfaces for front end development.
+                            Angular is Google’s matured and advanced JavaScript framework based on TypeScript, whereas Vue is a progressive open-source front-end JavaScript framework created by Evan You.
+                            While comparing Vue JS vs Angular, Vue is known for its clean architecture and its elegant designs. On the other hand, Angular is considered for many organizations due to its vast functionality and high performance.    Vue is a popular progressive, open-source framework for developing complex user interfaces, while React is a JavaScript library for building web development for interactive elements on UIs. React is also used to develop SPAs and mobile apps.
+                            Vue JS is more oriented to novice developers, while React requires in-depth knowledge of JavaScript. React uses a virtual DOM (copy of the actual DOM) to interact with HTML files, but every element is represented as a JavaScript object. Vue has two-way binding and uses a virtual DOM.
                         </p>
                     </div>
                 </div>

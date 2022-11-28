@@ -40,7 +40,7 @@ const Register = () => {
         const formData = new FormData()
         formData.append('image', photo)
 
-        fetch(`https://api.imgbb.com/1/upload?key=${process.env.REACT_APP_ImageKey}`, {
+        fetch(`https://api.imgbb.com/1/upload?expiration=600&key=${process.env.REACT_APP_ImageKey}`, {
             method: 'POST',
             body: formData
         })
@@ -49,6 +49,7 @@ const Register = () => {
                 if (data?.data?.url) {
                     const imagUrl = data.data.url;
                     createUser(email, password)
+                    console.log(imagUrl)
                         .then(result => {
                             const user = result.user;
                             const userinfo = {

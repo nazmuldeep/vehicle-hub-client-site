@@ -25,6 +25,7 @@ const DashBoardLayout = () => {
                         <li><Link to="/dashBoard/myProduct"> Products</Link></li>
                         <li><Link to="/dashBoard/myBuyers"> Buyers</Link></li>
                         <li><Link to="/dashBoard/myOrder"> Orders</Link></li>
+                        {/* <li><Link to="/dashBoard/myOrder"> Orders</Link></li> */}
                     </ul>
 
                 </div>

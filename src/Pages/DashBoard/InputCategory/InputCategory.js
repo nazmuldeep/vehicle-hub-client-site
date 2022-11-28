@@ -8,7 +8,7 @@ const InputCategory = () => {
         const dbCategory = {
             category
         }
-        fetch('http://localhost:5000/category', {
+        fetch('https://vehicle-hub-server.vercel.app/category', {
             method: "POST",
             headers: {
                 "content-type": "application/json"

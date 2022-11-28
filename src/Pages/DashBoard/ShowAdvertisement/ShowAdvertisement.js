@@ -8,7 +8,7 @@ const ShowAdvertisement = () => {
     // const {data:showProducts=[]}=useQuery({
     //     queryKey: ['appointmentOptions', ],
     //     queryFn: async () => {
-    //         const res = await fetch(`http://localhost:5000/product`);
+    //         const res = await fetch(`https://vehicle-hub-server.vercel.app/product`);
     //         const data = await res.json();
     //         return data
     //     }
@@ -17,14 +17,14 @@ const ShowAdvertisement = () => {
     const [showProducts, setShowProducts] = useState([])
     useEffect(() => {
         axios
-            .get(`http://localhost:5000/product`)
+            .get(`https://vehicle-hub-server.vercel.app/product`)
             .then((res) => setShowProducts(res.data));
     }, [])
     // handle Delete
     const handleDelete = id => {
         const agree = window.confirm('you want to delete')
         if (agree) {
-            fetch(`http://localhost:5000/productDelete/${id}`, {
+            fetch(`https://vehicle-hub-server.vercel.app/productDelete/${id}`, {
                 method: 'DELETE'
             })
                 .then(res => res.json())

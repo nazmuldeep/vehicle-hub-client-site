@@ -10,7 +10,7 @@ import WhyUs from './WhyUs/WhyUs';
 const Home = () => {
     const [category, setCategory] = useState([])
     useEffect(() => {
-        fetch('http://localhost:5000/category')
+        fetch('https://vehicle-hub-server.vercel.app/category')
             .then(res => res.json())
             .then(data => setCategory(data))
     }, [])
@@ -19,10 +19,10 @@ const Home = () => {
         Status: 'approved'
     }
     useEffect(() => {
-        fetch(`http://localhost:5000/products/${'approved'}`)
+        fetch(`https://vehicle-hub-server.vercel.app/products/${'approved'}`)
             .then(res => res.json())
             .then(data => setProductInfo(data))
-        // axios.get('http://localhost:5000/product')
+        // axios.get('https://vehicle-hub-server.vercel.app/product')
         // .then(data=>{
         //     const prosucts=data.data.data;
         //     setProductInfo(prosucts)

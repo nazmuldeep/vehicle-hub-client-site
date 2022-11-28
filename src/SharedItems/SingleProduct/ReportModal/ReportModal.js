@@ -21,7 +21,7 @@ const ReportModal = ({ productModalReport }) => {
     }
 
     const handleBookingSubmit = event => {
-        fetch('http://localhost:5000/report', {
+        fetch('https://vehicle-hub-server.vercel.app/report', {
             method: "POST",
             headers: {
                 "content-type": "application/json"

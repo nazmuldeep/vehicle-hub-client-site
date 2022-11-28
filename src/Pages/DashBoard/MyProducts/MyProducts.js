@@ -15,18 +15,18 @@ const MyProducts = () => {
     // const [showProducts, setShowProducts]=useState([])
     //     useEffect(()=>{
     //         axios
-    //         .get(`http://localhost:5000/myProduct/${email}`)
+    //         .get(`https://vehicle-hub-server.vercel.app/myProduct/${email}`)
     //         .then((res) => setShowProducts(res.data));
     //     },[email])
     const { data: showProducts = [], refetch } = useQuery({
         queryKey: ['myProduct'],
-        queryFn: () => fetch(`http://localhost:5000/myProduct/${email}`)
+        queryFn: () => fetch(`https://vehicle-hub-server.vercel.app/myProduct/${email}`)
             .then(res => res.json())
     })
     const handleDelete = id => {
         const agree = window.confirm('you want to delete')
         if (agree) {
-            fetch(`http://localhost:5000/productDelete/${id}`, {
+            fetch(`https://vehicle-hub-server.vercel.app/productDelete/${id}`, {
                 method: 'DELETE'
             })
                 .then(res => res.json())
@@ -44,7 +44,7 @@ const MyProducts = () => {
     console.log(status);
     const handleSubmit = (id) => {
         console.log(id);
-        fetch(`http://localhost:5000/updateProduct/${id}`, {
+        fetch(`https://vehicle-hub-server.vercel.app/updateProduct/${id}`, {
             method: 'PUT',
             headers: {
                 'content-type': 'application/json'

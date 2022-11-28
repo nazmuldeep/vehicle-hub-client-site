@@ -7,7 +7,7 @@ const UserReport = () => {
     const [showProducts, setShowProducts] = useState([])
     useEffect(() => {
         axios
-            .get(`http://localhost:5000/reports`)
+            .get(`https://vehicle-hub-server.vercel.app/reports`)
             .then((res) => setShowProducts(res.data));
     }, [])
 

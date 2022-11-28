@@ -20,7 +20,7 @@ const ProductModal = ({ productModalInfo }) => {
     }
 
     const handleBookingSubmit = event => {
-        fetch('http://localhost:5000/booking', {
+        fetch('https://vehicle-hub-server.vercel.app/booking', {
             method: "POST",
             headers: {
                 "content-type": "application/json"
@@ -37,7 +37,7 @@ const ProductModal = ({ productModalInfo }) => {
     console.log(status);
     const hendleStatus = (id) => {
         console.log(id);
-        fetch(`http://localhost:5000/updateProduct/${id}`, {
+        fetch(`https://vehicle-hub-server.vercel.app/updateProduct/${id}`, {
             method: 'PUT',
             headers: {
                 'content-type': 'application/json'

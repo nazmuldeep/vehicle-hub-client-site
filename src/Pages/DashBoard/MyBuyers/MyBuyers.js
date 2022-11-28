@@ -13,14 +13,14 @@ const MyBuyers = () => {
     const [showProducts, setShowProducts] = useState([])
     useEffect(() => {
         axios
-            .get(`http://localhost:5000/myBuyers/${email}`)
+            .get(`https://vehicle-hub-server.vercel.app/myBuyers/${email}`)
             .then((res) => setShowProducts(res.data));
     }, [email])
 
     const handleDelete = id => {
         const agree = window.confirm('you want to delete')
         if (agree) {
-            fetch(`http://localhost:5000/bookingDelete/${id}`, {
+            fetch(`https://vehicle-hub-server.vercel.app/bookingDelete/${id}`, {
                 method: 'DELETE'
             })
                 .then(res => res.json())

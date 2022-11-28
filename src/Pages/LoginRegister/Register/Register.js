@@ -25,7 +25,7 @@ const Register = () => {
         const password = form.password.value
         const photo = form.userPhoto.files[0]
 
-        fetch('http://localhost:5000/users', {
+        fetch('https://vehicle-hub-server.vercel.app/users', {
             method: "POST",
             headers: {
                 "content-type": "application/json"

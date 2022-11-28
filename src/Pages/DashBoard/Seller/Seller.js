@@ -19,14 +19,14 @@ const Seller = () => {
     const [dbUser, setDbUser] = useState([])
     useEffect(() => {
         axios
-            .get(`http://localhost:5000/users/${findUser}`)
+            .get(`https://vehicle-hub-server.vercel.app/users/${findUser}`)
             .then((res) => setDbUser(res.data));
     }, [findUser])
 
     const handleDeletes = id => {
         const agree = window.confirm('you want to delete')
         if (agree) {
-            fetch(`http://localhost:5000/usersDelete/${id}`, {
+            fetch(`https://vehicle-hub-server.vercel.app/usersDelete/${id}`, {
                 method: 'DELETE'
             })
                 .then(res => res.json())

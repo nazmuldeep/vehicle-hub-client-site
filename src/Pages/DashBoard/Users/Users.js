@@ -1,5 +1,6 @@
 import React, { useContext, } from 'react';
-import { AuthContext } from '../../../Context/AuthProvider/AuthProvider';
+import { AuthContext } from '../../../Context/AuthProvider.js/AuthProvider';
+
 const Users = () => {
     const { user } = useContext(AuthContext)
     const { displayName, email, photoURL, } = user

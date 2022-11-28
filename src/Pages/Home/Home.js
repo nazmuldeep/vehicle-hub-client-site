@@ -19,7 +19,7 @@ const Home = () => {
         Status: 'approved'
     }
     useEffect(() => {
-        fetch(`https://vehicle-hub-server.vercel.app/products/${'approved'}`)
+        fetch(`https://vehicle-hub-server.vercel.app/product`)
             .then(res => res.json())
             .then(data => setProductInfo(data))
         // axios.get('https://vehicle-hub-server.vercel.app/product')

@@ -43,10 +43,10 @@ const Home = () => {
                 >
                     <div className="max-w-xl text-center sm:text-left">
                         <h1 className="text-3xl font-extrabold sm:text-5xl">
-                            Dream Come True
+                            Find Your Dream Car
 
-                            <strong className="block font-extrabold text-rose-700">
-                                Let's Raid !
+                            <strong className="block text-3xl text-pink-600">
+                                We sell quality reconditioned <br /> and new vehicles
                             </strong>
                         </h1>
 

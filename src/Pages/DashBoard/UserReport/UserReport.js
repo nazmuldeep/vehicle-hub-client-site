@@ -15,7 +15,7 @@ const UserReport = () => {
     return (
         <div>
             <div>
-                <h1 className='text-3xl font-bold my-10 bg-lime-200 rounded-3xl py-10 uppercase text-center'>this is Users Reports</h1>
+                <h1 className='text-3xl font-bold my-10 bg-pink-600 rounded-3xl py-10 text-white text-center'>Wellcome To User Reports Profile</h1>
             </div>
             <div className="overflow-x-auto">
                 <table className="table table-compact w-full">

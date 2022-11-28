@@ -61,7 +61,7 @@ const MyProducts = () => {
     return (
         <div>
             <div>
-                <h1 className='text-3xl font-bold my-10 bg-lime-200 rounded-3xl py-10 uppercase text-center'>this is {displayName}  product</h1>
+                <h1 className='text-3xl font-bold my-10 bg-pink-600 rounded-3xl py-10 text-white text-center'>Welcome To This {displayName}'s  Product</h1>
             </div>
             <div className="overflow-x-auto">
                 <table className="table table-compact w-full">
@@ -98,10 +98,10 @@ const MyProducts = () => {
                                 <td>{product?.Status}</td>
                                 <td> {product?.Status === 'Available' ?
 
-                                    <><button type='submit' onClick={() => handleSubmit(product._id)} className='btn btn-sm bg-info' > make advertise</button></> :
-                                    <><button type='submit' onClick={() => handleSubmit(product._id)} disabled className='btn  btn-sm bg-info' > make advertise</button></>
+                                    <><button type='submit' onClick={() => handleSubmit(product._id)} className='btn btn-sm bg-green-600 text-white' > make advertise</button></> :
+                                    <><button type='submit' onClick={() => handleSubmit(product._id)} disabled className='btn  btn-sm bg-green text-white' > make advertise</button></>
                                 } </td>
-                                <td><button onClick={() => handleDelete(product._id)} className='btn btn-sm bg-red-600'>DELETE</button></td>
+                                <td><button onClick={() => handleDelete(product._id)} className='btn btn-sm bg-red-600 text-white'>DELETE</button></td>
                             </tr>)
                         }
                     </tbody>

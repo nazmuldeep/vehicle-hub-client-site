@@ -41,7 +41,7 @@ const ShowAdvertisement = () => {
     return (
         <>
             <div>
-                <h1 className='text-3xl my-10 bg-amber-200 font-bold rounded-3xl py-10 uppercase text-center'>Show all Advertisement</h1>
+                <h1 className='text-3xl my-10 bg-pink-600 text-white font-bold rounded-3xl py-10  text-center'>Show All Advertisement</h1>
             </div>
             <div className="overflow-x-auto">
                 <table className="table table-compact w-full">
@@ -68,7 +68,7 @@ const ShowAdvertisement = () => {
                                 <td>
                                     <PhotoProvider>
                                         <PhotoView src={product?.picture}>
-                                            <img src={product?.picture} className="w-8 h-8" alt="" />
+                                            <img src={product?.picture} className="w-13 h-10 " alt="" />
                                         </PhotoView>
                                     </PhotoProvider>
                                 </td>
@@ -77,7 +77,7 @@ const ShowAdvertisement = () => {
                                 <td>{product.resalePrice}</td>
                                 <td>{product.useTime} Year</td>
                                 <td>{product.Status}</td>
-                                <td><button onClick={() => handleDelete(product._id)} className='btn btn-sm bg-red-600'>DELETE</button></td>
+                                <td><button onClick={() => handleDelete(product._id)} className='btn btn-sm bg-red-600 text-white'>DELETE</button></td>
                             </tr>)
                         }
                     </tbody>

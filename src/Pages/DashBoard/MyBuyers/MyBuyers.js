@@ -40,7 +40,7 @@ const MyBuyers = () => {
     return (
         <div>
             <div>
-                <h1 className='text-3xl font-bold my-10 bg-red-300 rounded-3xl py-10 uppercase text-center'>This is {displayName} Buyer Page</h1>
+                <h1 className='text-3xl font-bold my-10 bg-pink-600 rounded-3xl py-10 text-white text-center'>Welcome to {displayName}'s Buyer Page</h1>
             </div>
             <div className="overflow-x-auto">
                 <table className="table table-compact w-full">

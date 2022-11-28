@@ -8,7 +8,7 @@ const Users = () => {
     return (
         <div>
             <div>
-                <h1 className='text-3xl font-bold my-10 bg-cyan-200 rounded-3xl py-10 uppercase text-center'>This is  {displayName} Profile</h1>
+                <h1 className='text-3xl font-bold my-10 bg-pink-600 text-white rounded-3xl py-10  text-center'>Welcome to  {displayName}'s Profile</h1>
             </div>
             <div className='flex justify-evenly my-10'>
                 <div className="avatar">

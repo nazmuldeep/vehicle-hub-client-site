@@ -44,13 +44,13 @@ const Seller = () => {
     return (
 
         <div>
-            <h1 className='text-3xl font-bold my-10 bg-red-300 rounded-3xl py-10 uppercase text-center'>this is user component</h1>
+            <h1 className='text-3xl font-bold my-10 bg-pink-600 rounded-3xl py-10 text-white text-center'>Welcome To User Information Profile</h1>
 
             <form onSubmit={handleSubmit} className="card flex-shrink-0 mx-auto w-full max-w-sm shadow-2xl bg-base-100">
                 <div className="card-body">
                     <div className="form-control">
                         <label className="label">
-                            <span className="label-text">filter User and Seller</span>
+                            <span className="label-text">Filter Out User and Seller</span>
                         </label>
                         <select name='role' className="select w-full input input-bordered">
                             <option value='User'>User Info</option>
@@ -67,7 +67,7 @@ const Seller = () => {
                 <table className="table table-compact w-full">
                     <thead>
                         <tr>
-                            <th>sl</th>
+                            <th>SL</th>
                             <th>Name</th>
                             <th>Email</th>
                             <th>User Role</th>

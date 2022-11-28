@@ -40,7 +40,7 @@ const MyOrders = () => {
     return (
         <div>
             <div>
-                <h1 className='text-3xl font-bold my-10 bg-success rounded-3xl py-10 uppercase text-center'>this is {displayName} order</h1>
+                <h1 className='text-3xl font-bold my-10 bg-green-400 text-white rounded-3xl py-10 uppercase text-center'>this is {displayName} order</h1>
             </div>
             <div className="overflow-x-auto">
                 <table className="table table-compact w-full">

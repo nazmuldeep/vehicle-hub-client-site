@@ -1,27 +1,27 @@
 import React from "react";
-import { FaUserSecret, FaUserGraduate, FaUserPlus } from "react-icons/fa";
+import { FaUserPlus, FaUserShield, FaUser } from "react-icons/fa";
 
 const WhyUs = () => {
     return (
         <div className="text-center py-5">
-            <h5 className="text-slate-300 font-semibold text-3xl">Why Us</h5>
-            <h2>The reason you  with Bike Resale</h2>
+            <h5 className="  font-semibold text-3xl">Why Vehicle hub?</h5>
+            <h2>Experiance and maintain with best price best deal </h2>
 
             <div className="flex lg:flex-row justify-center flex-col gap-5 mb-8 w-10/12 mx-auto mt-5">
                 <a
                     className="flex flex-col p-16 text-3xl rounded-xl border border-gray-800 bg-white text-slate-500 shadow-xl items-center justify-center shadow-slate-500"
                     href="/"
                 >
-                    <FaUserSecret></FaUserSecret>
+                    <FaUser></FaUser>
                     <h3 className="mt-3 text-xl font-bold text-slate-900">
-                        30000+ user
+                        10000+ User
                     </h3>
                 </a>
                 <a
                     className="flex flex-col p-16 text-3xl rounded-xl border border-gray-800  bg-white text-slate-500  shadow-xl items-center justify-center shadow-slate-500"
                     href="/"
                 >
-                    <FaUserGraduate></FaUserGraduate>
+                    <FaUserShield></FaUserShield>
                     <h3 className="mt-3 text-xl font-bold text-slate-900">
                         Trusted Seller
                     </h3>
@@ -33,7 +33,7 @@ const WhyUs = () => {
                 >
                     <FaUserPlus></FaUserPlus>
                     <h3 className="mt-3 text-xl font-bold text-slate-900">
-                        5+ year of user experience
+                        4+ Years Customer <br /> Staisfaction
                     </h3>
                 </a>
             </div>

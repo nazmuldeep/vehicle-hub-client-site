@@ -96,11 +96,11 @@ const Login = () => {
                         <button type='submit' className="btn btn-primary">Login</button>
                     </div>
                     <div className="form-control mt-6">
-                        <Link to={'/register'} className="w-100 border py-2 rounded-lg bg-warning text-center">Register Here</Link>
+                        <Link to={'/register'} className="w-100 border py-2 rounded-lg bg-pink-500 text-white text-center">Register Here</Link>
 
                     </div>
                     <div className="form-control mt-6">
-                        <div onClick={handleGoogleSignIn} className="w-100 border py-2 rounded-lg bg-info text-center">Sign Up With Google</div>
+                        <div onClick={handleGoogleSignIn} className="w-100 border py-2 rounded-lg bg-yellow-400 text-white text-center">Sign Up With Google</div>
 
                     </div>
                 </div>
